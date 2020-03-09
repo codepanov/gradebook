@@ -1,0 +1,8 @@
+CREATE TABLE zahtevi (
+    id int not null primary key auto_increment,
+    profesor_id int null, 
+    ucitelj_id int null,
+    roditelj_id int null, 
+    dan varchar(15) not null,
+    time varchar(15) not null,
+    approved varchar(20) not null);
